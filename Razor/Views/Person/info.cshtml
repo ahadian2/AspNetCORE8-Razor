@@ -1,0 +1,48 @@
+﻿@model Razor.Models.Users
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>info</title>
+</head>
+<body>
+    <div>
+        <span>ID</span>
+        <span>@Model.Id</span>
+    </div>
+    <div>
+        <span>Name</span>
+        <span>@Model.Name</span>
+    </div>
+    <div>
+        <span>Family</span>
+        <span>@Model.Family</span>
+    </div>
+
+
+    <hr />
+
+
+    <div>
+        <span>ID</span>
+        <input value="@Model.Id" />
+    </div>
+    <div>
+        <span>Name</span>
+        <input value="@Model.Name" />
+    </div>
+    <div>
+        <span>Family</span>
+        <input value="@Model.Family" />
+    </div>
+
+
+
+
+</body>
+</html>
